@@ -1,2 +1,6 @@
 # Escribir sus repositorios con el siguiente formato
 Nombre - repositorio url
+Fernanda Lopez 
+git remote add origin https://github.com/Ferlo-17/REPO-CLASE-.git
+git branch -M main
+git push -u origin main
