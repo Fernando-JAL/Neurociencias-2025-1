@@ -1,2 +1,3 @@
 # Escribir sus repositorios con el siguiente formato
 Nombre - repositorio url
+Oswaldo Rojano - https://github.com/Natanael501/CURSO-PROGRAMACION.git
