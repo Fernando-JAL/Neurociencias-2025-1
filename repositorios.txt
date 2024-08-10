@@ -1,2 +1,3 @@
 # Escribir sus repositorios con el siguiente formato
 Nombre - repositorio url
+Aitana Orduña Lugo - https://github.com/aitanaol/modelos-computacionales-I 
