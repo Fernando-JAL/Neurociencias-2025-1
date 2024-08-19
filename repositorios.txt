@@ -3,5 +3,4 @@ Nombre - repositorio url
 Marcela Aguirre Valdez - https://github.com/marcelixie/Modelos-Computacionales.git
 Carolina Daniells Zaldívar - https://github.com/CaroDaniells/Repositories.git
 Oswaldo Rojano - https://github.com/Natanael501/CURSO-PROGRAMACION.git
-Dafne Morales - https://github.com/Daphnemormed/Modelos-computacionales/edit/main/Repositorios.txt
-Estela - https://github.com/esteliux/modelos-computacionales-estela.git, egilvg@comunidad.unam.mx
+Dafne Morales - https://github.com/Daphnemormed/Modelos-computacionales.git daphne.moralesmed@gmail.com
