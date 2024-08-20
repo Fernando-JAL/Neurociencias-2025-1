@@ -4,4 +4,5 @@ Este documento contiene todos los archivos compartidos durante el semestre 2025-
 
 - Planeación.pdf - que contiene la planeación de la clase.
 - Temario python.pdf - describe el temario a abordar durante el semestre.
-- Hola profe 
+- Hola profe
+- Hola profe  2
