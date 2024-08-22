@@ -1,5 +1,6 @@
 # Escribir sus repositorios con el siguiente formato
 Nombre - repositorio url - correo
+Marcela Aguirre Valdez - https://github.com/marcelixie/Modelos-Computacionales.git - marcelaaguirrevaldez@gmail.com
 Larissa - https://github.com/Larissarodm/Modelos-de-Larissa.git - larissarodm@comunidad.unam.mx
 Marcela Aguirre Valdez - https://github.com/marcelixie/Modelos-Computacionales.git
 Carolina Daniells Zaldívar - https://github.com/CaroDaniells/Repositories.git - carodaniells@comunidad.unam.mx
