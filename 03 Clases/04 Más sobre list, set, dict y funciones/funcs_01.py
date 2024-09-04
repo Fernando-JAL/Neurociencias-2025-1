@@ -55,9 +55,25 @@ def test_con_multiple_return():
     print('localmente n = ', n)
     return n, n*5, 6**2, [5, 'lobo']
 
-vals = test_con_multiple_return()
-print(vals, type(vals))
+# vals = test_con_multiple_return()
+# print(vals, type(vals))
+#
+# val1, val2, val3, val4 = test_con_multiple_return()
+# print('vals:', val1, val2, val3, val4)
 
-val1, val2, val3, val4 = test_con_multiple_return()
-print('vals:', val1, val2, val3, val4)
+
+# Aplicación de global dentro de una función
+def test_funcion():
+    global variable
+    variable = 10 #variable local
+    print(variable)
+
+variable = 20 #variable global
+print(variable)
+test_funcion()
+print(variable)
+
+
+
+
 
