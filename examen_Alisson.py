@@ -63,12 +63,6 @@ print(range(cuadrados(a, b)))
 
 # ESCRIBE TU CÓDIGO AQUÍ
 
-
-
-
-
-
-
 # 5. Dada una lista de enteros que representan las longitudes de bastones, debes iterativamente cortar los bastones en
 # bastones más cortos descartando las piezas más cortas hasta que no queden ninguna. En cada iteración debes determinar
 # la longitud del bastón más corto. Cuando los bastones remanentes son de la misma longitud, no pueden ser recortados más
