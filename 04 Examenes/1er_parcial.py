@@ -8,6 +8,8 @@
 
 # ESCRIBE TU CÓDIGO AQUÍ
 
+# n debe ser mayor a 0
+
 # def fibonacci(n):
 #     n=n
 #     i1 = 1
