@@ -88,7 +88,6 @@ print(range(cuadrados(a, b)))
 # _ _ _ _ _ 3             3               1
 # _ _ _ _ _ _           Terminado         Terminado
 
-# ESCRIBE TU CÓDIGO AQUÍ
 
 
 
