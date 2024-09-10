@@ -73,7 +73,6 @@ print(range(cuadrados(a, b)))
 # Ejemplo:
 # Entrada: [5, 4, 4, 2, 2, 8]
 # Salida: [6, 4, 2, 1]
-#
 # Explicación:
 # longitud de bastones    longitud a cortar   bastones recortados
 # 5 4 4 2 2 8             2               6
