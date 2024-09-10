@@ -8,9 +8,20 @@
 
 # ESCRIBE TU CÓDIGO AQUÍ
 
+# n debe ser mayor a 0 !!!
 
-
-
+# def fibonacci(n):
+#     n=n
+#     i1 = 1
+#     i2 = 1
+#     for x in range(n-2):
+#         i = i1 + i2
+#         i1 = i2
+#         i2=i
+#     print('El término', n, 'es',i2)
+#
+# # por definición de fibonacci n debe ser mayor a 2 (los primeros dos términos son 1)
+# fibonacci(4)
 
 
 
@@ -19,6 +30,21 @@
 
 # ESCRIBE TU CÓDIGO AQUÍ
 
+# def fibonacci(n):
+#     n=n
+#     if n==1:
+#         print('El término 1 es 1 La secuencia es: [1]'),
+#     else:
+#         i1 = 1
+#         i2 = 1
+#         f = [i1, i2]
+#         for x in range(n-2):
+#             i = i1 + i2
+#             i1 = i2
+#             i2=i
+#             f.append(i)
+#         print('El término', n, 'es',i2, 'La secuencia es:', f)
+# fibonacci(9)
 
 
 
@@ -34,6 +60,16 @@
 
 # ESCRIBE TU CÓDIGO AQUÍ
 
+# def how_many_squares(a, b):
+#     count = 0
+#     for i in range(1, b + 1):
+#         if a <= (i * i) <= b:
+#             count += 1
+#     print(count)
+#
+# how_many_squares(2,25)
+
+
 
 
 
@@ -48,6 +84,16 @@
 # - Recibir por teclado la cadena $s$ y el entero $n$.
 
 # ESCRIBE TU CÓDIGO AQUÍ
+
+# def how_many_a(s,n):
+#     str(s)
+#     int(n)
+#     s = s[:n]
+#     print(s)
+#     print(s.count('a'))
+#
+# how_many_a('manzanaaaaaanaaa',10)
+
 
 
 
@@ -75,6 +121,20 @@
 # _ _ _ _ _ _           Terminado         Terminado
 
 # ESCRIBE TU CÓDIGO AQUÍ
+
+# def bastones(x):
+#     output = []
+#     while sum(x) > 0:
+#         output.append(len(x))
+#         min_val = min(x)
+#         for i in range(len(x)):
+#             x[i] = x[i] - min_val
+#         for i in range(x.count(0)):
+#             x.remove(0)
+#     print(output)
+#
+#
+# bastones([5, 4, 4, 2, 2, 8])
 
 
 
