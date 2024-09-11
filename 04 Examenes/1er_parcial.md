@@ -1,6 +1,6 @@
 1. La serie de Fibonacci se define con la siguiente regla de recurrencia:
 
-$F(n) = F(n-1) + F(n-2)$
+$ra $
 donde $n\in\mathbb{N}$ es el $n$-ésimo término de la serie de Fibonacci y los primeros términos son: $F(1) = 1$ y $F(2) = 1$.
 
 - Crear una función que reciba un entero $n$ y devuelva el $n$-ésimo término de la serie de Fibonacci.
