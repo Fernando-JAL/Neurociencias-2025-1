@@ -1,3 +1,12 @@
+# Examen primer parcial
+# Andrea Mercado Jiménez
+# 9 septiembre 2024
+
+# Examen primer parcial
+# Andrea Mercado Jiménez
+# 9 septiembre 2024
+
+
 # 1. La serie de Fibonacci se define con la siguiente regla de recurrencia:
 #
 # $F(n) = F(n-1) + F(n-2)$
@@ -5,24 +14,36 @@
 #
 # - Crear una función que reciba un entero $n$ y devuelva el $n$-ésimo término de la serie de Fibonacci.
 # - Recibir por teclado un número $n$ y devuelva el $n$-ésimo término de la serie de Fibonacci.
+def fibonacci(n):
+  if n <= 0:
+    return "El índice debe ser un número entero positivo."
+  elif n == 1 or n == 2:
+    return 1
+  else:
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
-# ESCRIBE TU CÓDIGO AQUÍ
+n = int(input("Ingrese el índice del término de Fibonacci que desea calcular: "))
+
+resultado = fibonacci(n)
+print("El término", n, "de la serie de Fibonacci es:", resultado)
 
 
-
-
-
-
-
-# 2. Utilizando la función del ejercico anterior, recibir por teclado un entero $n$ e imprimir los $n$-ésimos términos de
+#2. Utilizando la función del ejercico anterior, recibir por teclado un entero $n$ e imprimir los $n$-ésimos términos de
 # la serie de Fibonacci.
 
-# ESCRIBE TU CÓDIGO AQUÍ
+def fibonacci(n):
+  if n <= 0:
+    return "El índice debe ser un número entero positivo."
+  elif n == 1 or n == 2:
+    return 1
+  else:
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
+n = int(input("Ingrese la cantidad de términos de la serie de Fibonacci que desea calcular: "))
 
-
-
-
+print("Los primeros", n, "términos de la serie de Fibonacci son:")
+for i in range(1, n+1):
+  print(fibonacci(i), end=" ")
 
 
 # 3. A Watson le gusta retar la habilidad matemática de Sherlock. Watson proveerá un valor inicial y un valor final que
@@ -30,14 +51,15 @@
 #
 # Nota: Un cuadrado entero es un entero cuya raíz es un entero, ej 4, 9, 16.
 #
-# - Crear una función que reciba dos enteros: $a$ y $b$ y retorne el número d ecuadrados enteros en el rango $[a, b]$
+# - Crear una función que reciba dos enteros: $a$ y $b$ y retorne el número de cuadrados enteros en el rango $[a, b]$
 
-# ESCRIBE TU CÓDIGO AQUÍ
-
-
-
-
-
+def contar_cuadrados_perfectos(a, b):
+  contador = 0
+  for i in range(int(a**0.5), int(b**0.5) + 1):
+    cuadrado = i * i
+    if a <= cuadrado <= b:
+      contador += 1
+  return contador
 
 
 # 4. Sea una cadena $s$ de letras en minúscula q se repite infinitamente. Dado un entero $n$, encuentra e
@@ -47,12 +69,19 @@
 # la cadena infinita.
 # - Recibir por teclado la cadena $s$ y el entero $n$.
 
-# ESCRIBE TU CÓDIGO AQUÍ
+def contar_as(s, n):
+  longitud_cadena = len(s)
+  repeticiones_completas = n // longitud_cadena
+  as_en_repeticiones_completas = repeticiones_completas * s.count('a')
+  resto = n % longitud_cadena
+  as_en_resto = s[:resto].count('a')
+  return as_en_repeticiones_completas + as_en_resto
 
+s = input("Ingrese la cadena base: ")
+n = int(input("Ingrese el número de letras a considerar: "))
 
-
-
-
+resultado = contar_as(s, n)
+print("Hay", resultado, "letras 'a' en las primeras", n, "letras de la cadena.")
 
 
 # 5. Dada una lista de enteros que representan las longitudes de bastones, debes iterativamente cortar los bastones en
@@ -75,6 +104,7 @@
 # _ _ _ _ _ _           Terminado         Terminado
 
 # ESCRIBE TU CÓDIGO AQUÍ
+
 
 
 
