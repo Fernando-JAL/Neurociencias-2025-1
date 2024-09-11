@@ -7,10 +7,7 @@ def fibonacci(n):
 
 n = int(int("Introduce un número entero"))
 print('Término de la serie', fibonacci())
-
-
-
-#Ejercicio 2
+resultado = fibonacci(n)
 
 
 #Ejercicio 3
@@ -39,7 +36,7 @@ s = input("Ingrese palabra s: ")
 n = int(input("Ingrese  número n: "))
 
 resultado = contar_as(s, n)
-print(f"Número de letras 'a' en las primeras {n} letras de la cadena: {resultado}")
+
 
 #Ejercicio 5
 def cortar(bastones):
