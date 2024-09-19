@@ -1,7 +1,25 @@
 # Escribir sus repositorios con el siguiente formato
-Nombre - repositorio url
-Marcela Aguirre Valdez - https://github.com/marcelixie/Modelos-Computacionales.git
-Carolina Daniells Zaldívar - https://github.com/CaroDaniells/Repositories.git
+Nombre - repositorio url - correo
+Marcela Aguirre Valdez - https://github.com/marcelixie/Modelos-Computacionales.git - marcelaaguirrevaldez@gmail.com
+Larissa - https://github.com/Larissarodm/Modelos-de-Larissa.git - larissarodm@comunidad.unam.mx
+Carolina Daniells Zaldívar - https://github.com/CaroDaniells/Repositories.git - carodaniells@comunidad.unam.mx
 Oswaldo Rojano - https://github.com/Natanael501/CURSO-PROGRAMACION.git
+Dafne Morales - https://github.com/Daphnemormed/Modelos-computacionales/edit/main/Repositorios.txt
+Anel Mendiola - https://github.com/anelpastell/Neuro2025_AnelMendiola.git - anel.mendiola@comunidad.unam.mx
+Mariana Zúñiga- https://github.com/Marzusan/Modelos.git mariizusa@comunidad.unam.mx
+Sabrina Arroyo - https://github.com/SabrinaArroyo/Modelos1_Sabrina.git - sabrinaarroyo30@gmail.com
+Fernanda Lopez - https://github.com/Ferlo-17/Clase-martes-13.git - arguellesferlo@comunidad.unam.mx
+Melannie Martínez - https://github.com/melvelasco/repositorio.git - melannie.rosse@gmail.com
+Zaira Lazcano - https://github.com/zairaval/ZairaMC.git - avila.zaira@comunidad.unam.mx
+Andrea Mercado - https://github.com/Andrea-MJ/Modelos-computacionales.git - andreamercado@comunidad.unam.mx
+Beth Perez - https://github.com/BethPerezTorres/reposito.git - bethperez777@gmail.com
+Rafael Lopez - https://github.com/RazielTLS/RepoRafa.git rafael.lopezt@comunidad.unam.mx
+Aitana Orduña Lugo - https://github.com/aitanaol/modelos-computacionales-I.git - aitana@comunidad.unam.mx
+Clau Coutiño - https://github.com/Clau-CV/Repositorio.git - ccoutinov09@gmail.com
+Anette Hdz - https://github.com/AnetteCotonette/Cacahuate.git - gia19ahm@gmail.com
+Mariana zuñiga-  https://github.com/Marzusan/Modelos.git  mariizusa@comunidad.unam.mx
+Estela - https://github.com/esteliux/modelos-computacionales-estela.git, egilvg@comunidad.unam.mx
+Alisson García - https://github.com/Alissongm04/Modelos_Comp.git - alisson_garcia04@comunidad.unam.mx
 Dafne Morales - https://github.com/Daphnemormed/Modelos-computacionales.git daphne.moralesmed@gmail.com
-
+Vladimir Abisai Espinosa Torrijos  - https://github.com/Vlad49-lab/Vladimir-E.-.git - vlad_tor49@comunidad.unam.mx
+Karime Jiménez - https://github.com/Karimej/Repositorio_karime.git - karimejr.29@gmail.com
