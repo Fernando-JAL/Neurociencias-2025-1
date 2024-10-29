@@ -1,4 +1,4 @@
-import class_notes
+import bct
 
 import scipy.io
 import matplotlib.pyplot as plt
