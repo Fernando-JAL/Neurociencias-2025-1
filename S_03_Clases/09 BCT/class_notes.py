@@ -11,7 +11,7 @@ mat_json = scipy.io.loadmat(mat_path)
 mat_dict = {k:v for k, v in mat_json.items() if k[0] != '_'}
 
 fig = plt.figure(figsize=(15, 15))
-ax = sns.heatmap(mat_dict['Coactivation_matrix'], cmap='hot')
+ax = sns.heatmap(mat_dict['Coactivation_matrix'], cmap='jet')
 plt.show()
 
 
