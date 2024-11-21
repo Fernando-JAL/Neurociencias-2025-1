@@ -1,21 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
-import scipy.io
 
 fig = plt.figure(figsize = (15, 15))
 ax = plt.axes(projection="3d")
 
-mat_path = r"../../BCT/BCT/2019_03_03_BCT/data_and_demos/Coactivation_matrix.mat"
-mat_dict = scipy.io.loadmat(mat_path)
-
-x, y, z = mat_dict['Coord'][:, 0], mat_dict['Coord'][:, 1], mat_dict['Coord'][:, 2]
-
-n = len(mat_dict['Coord'])
-random_sizes = np.random.randint(50, 200, size=n)
+# Creating dataset
+#x, y, z = mat_dict['Coord'][:, 0]
+#n = len(mat_dict['Coord'])
+#random_sizes = np.random.randint(5,28, size=n)
 
 def init():
-    ax.scatter3D(x, y, z, s=random_sizes, marker='<')
+    ax.scatter3D(x, y, z, s = 200, marker = '<')
     return fig,
 
 def animate(i):
