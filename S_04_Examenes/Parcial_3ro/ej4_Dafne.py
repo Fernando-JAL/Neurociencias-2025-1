@@ -1,5 +1,5 @@
 # Para los datos de 'Coactivation_matrix.mat', filtre la matriz para obtener
-# los valores > 0.2, con el nuevo arreglo muestre los nodos y vértices del grafo
+# los valores > 0.2, con el nuevo arreglo muestre los nodos y vértices del grafo.
 
 import scipy.io
 import numpy as np

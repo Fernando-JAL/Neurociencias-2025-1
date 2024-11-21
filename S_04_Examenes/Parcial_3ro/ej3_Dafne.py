@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import animation
 import scipy.io
 
-# Se carga el grado del dodecaedro
+# Se carga el grado
 G = nx.dodecahedral_graph()
 # Se definen las coordenadas de cada nodo
 mat_path = r"/BCT/BCT/2019_03_03_BCT/data_and_demos/fve30.mat"

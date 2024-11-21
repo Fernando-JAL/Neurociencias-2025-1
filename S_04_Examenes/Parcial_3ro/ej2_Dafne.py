@@ -37,4 +37,4 @@
 # ani = animation.FuncAnimation(fig, animate, init_func=init, frames=90, interval=200, blit=False)
 # plt.show()
 
-    # Y pues eso hace que se rote el gráfico
+    # Eso hace que rote el gráfico

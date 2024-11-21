@@ -1,5 +1,5 @@
 # Para los datos de 'Coactivation_matrix.mat', filtre la matriz para que, para cada nodo, se
-# mantenga aquel nodo con mayor comunicación, con el nuevo arreglo muestre los nodos y vértices del grafo
+# mantenga aquel nodo con mayor comunicación, con el nuevo arreglo muestre los nodos y vértices del grafo.
 
 import scipy.io
 import numpy as np

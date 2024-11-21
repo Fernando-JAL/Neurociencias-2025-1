@@ -16,7 +16,7 @@ def lanzamiento(n: int) -> float:
     return probabilidad
 
 # Prueba de la función
-lanzamiento(7)  # n = 7
+lanzamiento(5)  # n = 5
 
 
 
