@@ -1,10 +1,29 @@
 # Examen 3er parcial. dataframes y grafos
 
+### Instrucciones para subir examen
+
+En repo Neurociencias-2025-1:
+
+- Estar en branch main
+- Actualizar repo
+- Crear branch con nombre parcial_3ro_nombre
+- Cambiarse a su branch, checkout
+- Dentro del folder de Parcial_3ro agregar los archivos:
+	- ej1_nombre
+	- ej2_nombre
+	- ej3_nombre
+	- ej4_nombre
+	- ej5_nombre
+- Hacer commit de solo los archivos del examen
+- Hacer pull del commit que solo tiene los archivos del examen
+- Hacer pull request con el nombre Examen_3er_parcial_nombre
+
+
 ## Ejercicio 1.
 En un solo lanzamiento de dos dados de 6 caras (con el mismo peso), encuentre la probabilidad de que
 su suma sea como máximo $n$.
 Cree una funcion llamada 'lanzamiento' que reciba un entero llamado 'n' y retorne un flotante que calcule la
-probabilidad de que el lanzamiento de 2 dados de 6 caras sea <= n.
+probabilidad de que la suma de las caras al lanzar 2 dados de 6 caras sea <= n.
 
 ### Escriba su código aquí
 
@@ -23,9 +42,9 @@ Para las coordenadas 'x', 'y', 'z' utiliza un arreglo de números enteros aleato
 
 ## Ejercicio 4.
 Para los datos de 'Coactivation_matrix.mat', filtre la matriz para obtener los valores > 0.2, con el nuevo 
-arreglo muestre los nodos y vértices del grafo
+arreglo muestre los nodos y vértices del grafo ploteado en 3D
 
 ## Ejercicio 5.
 Para los datos de 'Coactivation_matrix.mat', filtre la matriz para que, para cada nodo, se mantenga aquel nodo 
-con mayor comunicación, con el nuevo arreglo muestre los nodos y vértices del grafo
+con mayor comunicación, con el nuevo arreglo muestre los nodos y vértices del grafo ploteado en 3D
 
