@@ -33,3 +33,17 @@ def animate(i):
 
 ani = animation.FuncAnimation(fig, animate, init_func=init, frames=90, interval=200, blit=False)
 plt.show()
+
+num_nodos = G.number_of_nodes()
+print('Número de nodos:', num_nodos)
+
+num_aristas = G.number_of_edges()
+print('Número de aristas:', num_aristas)
+
+for nodo, grado in G.degree():
+    print(f'Nodo {nodo} tiene grado {grado}')
+
+def max_aristas(n):
+    return n * (n-1) // 2
+n = 20
+print('Máximo de número de nodos:', max_aristas(n))
