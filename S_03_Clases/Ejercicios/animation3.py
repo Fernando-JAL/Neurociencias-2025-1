@@ -41,7 +41,7 @@ def init():
         colorVal = scalarMap.to_rgba(color_values[idx])
         ax.plot(*vizedge.T, color=colorVal, linewidth=3.0)
     ax.grid(False)
-    ax.set_axis_off()z
+    ax.set_axis_off()
     plt.tight_layout()
     return
 
