@@ -8,6 +8,7 @@ import seaborn as sns
 mat_path = r"../../BCT/BCT/2019_03_03_BCT/data_and_demos/Coactivation_matrix.mat"
 
 mat_json = scipy.io.loadmat(mat_path)
+mat_json
 
 fig = plt.figure(figsize = (10, 7))
 ax = plt.axes(projection ="3d")
